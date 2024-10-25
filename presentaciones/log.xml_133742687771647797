@@ -1,0 +1,2 @@
+﻿<trace date="2024-10-24 11:39:33" category="Error"><logdate>2024-10-24 11:39:33</logdate><thread>LibraryAgent</thread><method>LibraryAgent - Run</method><message>Exception in Run: No se pudo encontrar el archivo &apos;C:\xampp\htdocs\test\presentaciones\requiredFiles.xml&apos;.</message>
+</trace>

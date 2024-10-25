@@ -1,0 +1,13 @@
+﻿<trace date="2024-10-24 11:47:10" category="Error"><logdate>2024-10-24 11:47:10</logdate><thread></thread><method>Main</method><message>Unhandled Exception: UnhandledException: El objeto Application se va a cerrar.</message>
+</trace>
+<trace date="2024-10-24 11:47:10" category="Error"><logdate>2024-10-24 11:47:10</logdate><thread></thread><method>Main</method><message>Stack Trace:    en System.Windows.Application.GetResourcePackage(Uri packageUri)
+   en System.Windows.Application.GetResourceOrContentPart(Uri uri)
+   en System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   en XiboClient.InfoScreen.InitializeComponent() en c:\Users\build\Documents\xibo-for-windows-build\build\repo\bd7184c-player\InfoScreen.xaml:línea 1
+   en XiboClient.InfoScreen..ctor() en c:\Users\build\Documents\xibo-for-windows-build\build\repo\bd7184c-player\InfoScreen.xaml.cs:línea 39
+   en XiboClient.MainWindow.Instance_KeyPress(String name) en c:\Users\build\Documents\xibo-for-windows-build\build\repo\bd7184c-player\MainWindow.xaml.cs:línea 269
+   en XiboClient.KeyStore.OnKeyPress(String name) en c:\Users\build\Documents\xibo-for-windows-build\build\repo\bd7184c-player\Logic\KeyStore.cs:línea 183
+   en XiboClient.KeyStore.HandleDefinedKey(Keys key) en c:\Users\build\Documents\xibo-for-windows-build\build\repo\bd7184c-player\Logic\KeyStore.cs:línea 128
+   en XiboClient.KeyStore.HandleRawKey(IntPtr wParam, IntPtr lParam) en c:\Users\build\Documents\xibo-for-windows-build\build\repo\bd7184c-player\Logic\KeyStore.cs:línea 106
+   en XiboClient.Logic.KeyInterceptor.HookCallback(Int32 nCode, IntPtr wParam, IntPtr lParam) en c:\Users\build\Documents\xibo-for-windows-build\build\repo\bd7184c-player\Logic\KeyInterceptor.cs:línea 57</message>
+</trace>

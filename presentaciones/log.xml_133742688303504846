@@ -1,0 +1,7 @@
+﻿<trace date="2024-10-24 11:40:30" category="Error"><logdate>2024-10-24 11:40:30</logdate><thread></thread><method>Main</method><message>Unhandled Exception: UnhandledException: Referencia a objeto no establecida como instancia de un objeto.</message>
+</trace>
+<trace date="2024-10-24 11:40:30" category="Error"><logdate>2024-10-24 11:40:30</logdate><thread></thread><method>Main</method><message>Stack Trace:    en XiboClient.MainWindow.GetActions() en c:\Users\build\Documents\xibo-for-windows-build\build\repo\bd7184c-player\MainWindow.xaml.cs:línea 1010
+   en XiboClient.MainWindow.HandleActionTrigger(String triggerType, String triggerCode, Int32 sourceId, Point point) en c:\Users\build\Documents\xibo-for-windows-build\build\repo\bd7184c-player\MainWindow.xaml.cs:línea 1107
+   en XiboClient.MainWindow.MouseInterceptor_MouseClickEvent(Point point) en c:\Users\build\Documents\xibo-for-windows-build\build\repo\bd7184c-player\MainWindow.xaml.cs:línea 242
+   en XiboClient.Logic.MouseInterceptor.HookCallback(Int32 nCode, IntPtr wParam, IntPtr lParam) en c:\Users\build\Documents\xibo-for-windows-build\build\repo\bd7184c-player\Logic\MouseInterceptor.cs:línea 94</message>
+</trace>
