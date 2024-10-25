@@ -26,12 +26,12 @@
 	<img id="slideshow" src="" alt="Slideshow" />
 	<script>
 		const slideshow = document.getElementById('slideshow');
-		const imageFolder = '231024/';
+		const imageFolder = 'https://github.com/reeinharddd/PPK-digital-signage/tree/main/231024/';
 		const totalImages = 18;
 		const intervalTime = 5000;
 
 		function showImage(index) {
-			slideshow.src = `${imageFolder}Diapositiva${index + 1}.png`;
+			slideshow.src = `${imageFolder}Diapositiva${index + 1}.PNG`;
 		}
 
 		function calculateImageIndex() {
